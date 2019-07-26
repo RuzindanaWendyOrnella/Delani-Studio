@@ -294,7 +294,7 @@ div.b {
 
 input[type="text"] {
   background: transparent;
-  width: 80%;
+  /* width: 80%; */
 }
 
 #exampleFormControlTextarea1 {
