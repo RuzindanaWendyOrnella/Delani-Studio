@@ -1,0 +1,19 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.min.css);
+
+.hm-gradient {
+  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+
+.darken-grey-text {
+  color: #2E2E2E;
+}
+
+
+
+
+
+
+
+<div class="view overlay hm-black-strong"><img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/portfolio/work3.jpg"
+class="img-fluid"alt="sample image"><div class="mask flex-center"><p class="white-text">Strong overlay</p></div></div></div>
