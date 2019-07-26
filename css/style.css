@@ -294,8 +294,8 @@ div.b {
 
 input[type="text"] {
   background: transparent;
-  width: 30%;
-  margin-left: 20%;
+  width: 50%;
+
   color: white;
 }
 
@@ -303,3 +303,7 @@ input[type="text"] {
   background: transparent;
   width: 50%;
 }
+
+/* #one {
+  text-align: center;
+} */
