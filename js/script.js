@@ -32,21 +32,24 @@ $(document).ready(function () {
     $('.product').hide();
 
   });
-  $('.image-1').hover(function () {
+
+  $('.image-1').mouseover(function () {
     $('.fol-1').show();
-  }, function () {
+  });
+  $('.image-1').mouseout(function () {
     $('fol-1').hide();
   });
 
-  $('.image-2').hover(function () {
-    $('.image-2').mouseenter(function () {
-      $(".fol-2").show();
-    });
-    $('.image-2').mouseleave(function () {
-      $(".fol-2").hide();
-    });
 
+
+  $('.image-2').mouseover(function () {
+    $(".fol-2").show();
   });
+  $('.image-2').mouseout(function () {
+    $(".fol-2").hide();
+  });
+
+
   $('.image-3').hover(function () {
     $('.image-3').mouseenter(function () {
       $(".fol-3").show();
