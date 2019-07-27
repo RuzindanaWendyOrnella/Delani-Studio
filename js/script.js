@@ -71,15 +71,15 @@ $(document).ready(function () {
   // });
 
 
-  //   $('.image-3').hover(function () {
-  //     $('.image-3').mouseenter(function () {
-  //       $(".fol-3").show();
-  //     });
-  //     $('.image-3').mouseleave(function () {
-  //       $(".fol-3").hide();
-  //     });
+  $('.image-3').hover(function () {
+    $('.image-3').mouseenter(function () {
+      $(".fol-3").show();
+    });
+    $('.image-3').mouseleave(function () {
+      $(".fol-3").hide();
+    });
 
-  //   });
+  });
   //   $('.image-4').hover(function () {
   //     $('.image-4').mouseenter(function () {
   //       $(".fol-4").show();
