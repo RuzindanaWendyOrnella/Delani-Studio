@@ -40,7 +40,23 @@ $(document).ready(function () {
     $('fol-1').hide();
   });
 
-
+  // $(".fol-2").hide();
+  // $(".image-2").animate({
+  //   opacity: 1
+  // });
+  // $(".image-2").hover(function () {
+  //     $(this).stop().animate({
+  //       opacity: 0.4
+  //     }, 200);
+  //     $('.fol-2').fadeIn();
+  //   },
+  //   function () {
+  //     $(this).stop().animate({
+  //       opacity: 1
+  //     }, 200);
+  //     $(".fol-2").fadeOut();
+  //   }
+  // );
 
   $('.image-2').mouseover(function () {
     $(".fol-2").show();
@@ -106,3 +122,16 @@ $(document).ready(function () {
   });
 
 });
+// $(".word").hide();
+// $(".image").animate({
+//   opacity:1
+// });
+// $("image").hover(function(){
+//   $(this).stop().animate({opacity:0.4},200);
+//   $("word").fadeIn();
+// },
+//   function(){
+//     $(this).stop().animate({opacity:1},200);
+//     $("word").fadeOut();
+//   }
+// );
