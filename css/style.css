@@ -357,16 +357,11 @@ div.b {
 input[type="text"] {
   background: transparent;
   width: 50%;
-  /* margin-left: 40%; */
+ 
   color: white;
 }
 
-/* input[type="email"] {
-  background: transparent;
-  width: 50%;
-  margin-left: 40%;
-  color: white;
-} */
+
 
 #exampleFormControlTextarea1 {
   background: transparent;
