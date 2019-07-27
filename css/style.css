@@ -42,7 +42,7 @@
 
 .a {
   margin-bottom: 10%;
-  color: white;
+  color: black;
 }
 
 h1 {
@@ -380,4 +380,41 @@ form ::placeholder {
 
 .footer {
   text-align: center;
+}
+
+.delanistudio {
+  margin-top: 2%;
+  font-size: 80%;
+}
+
+.twitter {
+  margin-right: 1%;
+}
+
+.dribble {
+  margin-right: 1%;
+}
+
+.facebook {
+  margin-right: 1%;
+}
+
+.g {
+  margin-right: 1%;
+}
+
+.skype {
+  margin-right: 1%;
+}
+
+.stumble {
+  margin-right: 1%;
+}
+
+.be {
+  margin-right: 1%;
+}
+
+.pinterest {
+  margin-right: 1%;
 }
