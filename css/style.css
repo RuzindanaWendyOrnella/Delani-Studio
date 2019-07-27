@@ -378,6 +378,10 @@ form ::placeholder {
   color: white;
 }
 
+button[type='button'] {
+  margin-left: 40%;
+}
+
 .footer {
   text-align: center;
 }
