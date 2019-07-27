@@ -33,92 +33,107 @@ $(document).ready(function () {
 
   });
 
-  $('.image-1').mouseover(function () {
-    $('.fol-1').show();
-  });
-  $('.image-1').mouseout(function () {
-    $('fol-1').hide();
-  });
+  // $('.image-1').mouseover(function () {
+  //   $('.fol-1').show();
+  // });
+  // $('.image-1').mouseout(function () {
+  //   $('fol-1').hide();
+  // });
 
   // $(".fol-2").hide();
   // $(".image-2").animate({
   //   opacity: 1
   // });
-  // $(".image-2").hover(function () {
-  //     $(this).stop().animate({
-  //       opacity: 0.4
-  //     }, 200);
-  //     $('.fol-2').fadeIn();
-  //   },
-  //   function () {
-  //     $(this).stop().animate({
-  //       opacity: 1
-  //     }, 200);
+  $(".image-2").hover(function () {
+    // $(this).stop().animate({
+    //   opacity: 0.4
+    // }, 200);
+    $('.fol-2').fadeIn();
+
+  });
+  $('.image-2').mouseout(function () {
+    $('.fol-2').hide();
+  });
+
+  // function () {
+  // $(this).stop().animate({
+  //   opacity: 1
+  // }, 200);
   //     $(".fol-2").fadeOut();
   //   }
   // );
 
-  $('.image-2').mouseover(function () {
-    $(".fol-2").show();
-  });
-  $('.image-2').mouseout(function () {
-    $(".fol-2").hide();
-  });
+  // $('.image-2').mouseover(function () {
+  //   $(".fol-2").show();
+  // });
+  // $('.image-2').mouseout(function () {
+  //   $(".fol-2").hide();
+  // });
 
 
-  $('.image-3').hover(function () {
-    $('.image-3').mouseenter(function () {
-      $(".fol-3").show();
-    });
-    $('.image-3').mouseleave(function () {
-      $(".fol-3").hide();
-    });
+  //   $('.image-3').hover(function () {
+  //     $('.image-3').mouseenter(function () {
+  //       $(".fol-3").show();
+  //     });
+  //     $('.image-3').mouseleave(function () {
+  //       $(".fol-3").hide();
+  //     });
 
-  });
-  $('.image-4').hover(function () {
-    $('.image-4').mouseenter(function () {
-      $(".fol-4").show();
-    });
-    $('.image-4').mouseleave(function () {
-      $(".fol-4").hide();
-    });
+  //   });
+  //   $('.image-4').hover(function () {
+  //     $('.image-4').mouseenter(function () {
+  //       $(".fol-4").show();
+  //     });
+  //     $('.image-4').mouseleave(function () {
+  //       $(".fol-4").hide();
+  //     });
 
-  });
-  $('.image-5').hover(function () {
-    $('.image-5').mouseenter(function () {
-      $(".fol-5").show();
-    });
-    $('.image-5').mouseleave(function () {
-      $(".fol-5").hide();
-    });
+  //   });
+  //   $('.image-5').hover(function () {
+  //     $('.image-5').mouseenter(function () {
+  //       $(".fol-5").show();
+  //     });
+  //     $('.image-5').mouseleave(function () {
+  //       $(".fol-5").hide();
+  //     });
 
-  });
-  $('.image-6').hover(function () {
-    $('.image-6').mouseenter(function () {
-      $(".fol-6").show();
-    });
-    $('.image-6').mouseleave(function () {
-      $(".fol-6").hide();
-    });
+  //   });
+  //   $('.image-6').hover(function () {
+  //     $('.image-6').mouseover(function () {
+  //       $(".fol-6").show();
+  //     });
+  //     $('.image-6').mouseout(function () {
+  //       $(".fol-6").hide();
+  //     });
 
-  });
-  $('.image-7').hover(function () {
-    $('.image-7').mouseenter(function () {
-      $(".fol-7").show();
-    });
-    $('.image-7').mouseleave(function () {
-      $(".fol-7").hide();
-    });
+  //   });
+  //   $('.image-7').hover(function () {
+  //     $('.image-7').mouseenter(function () {
+  //       $(".fol-7").show();
+  //     });
+  //     $('.image-7').mouseleave(function () {
+  //       $(".fol-7").hide();
+  //     });
 
-  });
-  $('.image-8').hover(function () {
-    $('.image-8').mouseenter(function () {
-      $(".fol-8").show();
-    });
-    $('.image-8').mouseleave(function () {
-      $(".fol-8").hide();
-    });
+  //   });
+  //   $('.image-8').hover(function () {
+  //     $('.image-8').mouseenter(function () {
+  //       $(".fol-8").show();
+  //     });
+  //     $('.image-8').mouseleave(function () {
+  //       $(".fol-8").hide();
+  //     });
 
+  //   });
+  $('#button').click(function (event) {
+    var name = $('#One').val();
+    var email = $('#two').val();
+    var message = $('#exampleFormControlTextarea1').val();
+    if ((name !== '') && (email !== '') && (message !== '')) {
+      alert(email + 'we have received your message')
+    } else {
+      alert('please input your contact information')
+    }
   });
 
 });
