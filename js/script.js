@@ -130,7 +130,7 @@ $(document).ready(function () {
     var email = $('#two').val();
     var message = $('#exampleFormControlTextarea1').val();
     if ((name !== '') && (email !== '') && (message !== '')) {
-      alert(email + 'we have received your message')
+      alert = (email + 'we have received your message')
     } else {
       alert('please input your contact information')
     }
