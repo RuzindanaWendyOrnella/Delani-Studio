@@ -23,7 +23,7 @@
 }
 
 .m {
-  margin-left: 50%;
+  margin-left: 53%;
   margin-top: 16%;
   /* margin-top: 34.5%; */
   margin-bottom: 3%;
@@ -87,9 +87,15 @@ div.b {
 .services {
   background: url('https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/s_image.jpg');
   color: white;
-
+  /* margin-right: -60%;
+  margin-left: 5%; */
   background-repeat: no-repeat;
 }
+
+/* 
+.b {
+  margin-right: 45%;
+} */
 
 .one {
   text-align: inherit;
@@ -109,6 +115,10 @@ div.b {
   display: none;
 }
 
+.ol {
+  margin-left: 120%;
+}
+
 .folio {
   text-align: center;
 }
@@ -117,6 +127,7 @@ div.b {
   margin-bottom: 34px;
   position: relative;
   text-align: center;
+  margin-right: -1%;
   float: right;
 
 
@@ -131,7 +142,7 @@ div.b {
 
   float: left;
 
-  margin-left: 50%;
+  margin-left: 45%;
 
   position: relative;
 
@@ -139,7 +150,7 @@ div.b {
 
 .image-4 {
   float: left;
-  margin-left: 98%;
+  margin-left: 90%;
   position: relative;
 
 }
@@ -157,13 +168,13 @@ div.b {
 .image-7 {
   float: left;
 
-  margin-left: 50%;
+  margin-left: 45%;
   position: relative;
 }
 
 .image-8 {
   float: left;
-  margin-left: 98%;
+  margin-left: 90%;
   position: relative;
 }
 
@@ -357,7 +368,7 @@ div.b {
 input[type="text"] {
   background: transparent;
   width: 50%;
- 
+
   color: white;
 }
 
