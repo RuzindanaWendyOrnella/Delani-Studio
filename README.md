@@ -13,7 +13,7 @@ programmmer
 * git-hub
 * shutter
 * bootstrap
-.jQuery
+* jQuery
 
 
 
