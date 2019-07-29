@@ -11,7 +11,7 @@ programmmer
 * visual studio terminal
 * terminal
 * git-hub
-* shutter
+* kazam
 * bootstrap
 * jQuery
 ## BDD
