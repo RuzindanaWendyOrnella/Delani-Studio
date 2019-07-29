@@ -1,7 +1,7 @@
 # {Project Name}
 Delani-Studio
 # {Brief description of project}
- 
+ The aim of this project was to make a webpage ressembling an original copy with the help of jquery effect and bootstrap.
 27/07/2019
 #### By 
 Ruzindana Wendy Ornella,
