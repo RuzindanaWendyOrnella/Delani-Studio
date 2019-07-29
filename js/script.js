@@ -1,3 +1,4 @@
+/*This is the business logic */
 $(document).ready(function () {
   $('.hidden').click(function () {
     $('.showing').show();
@@ -43,28 +44,6 @@ $(document).ready(function () {
 
   });
 
-  // $(".fol-2").hide();
-  // $(".image-2").animate({
-  //   opacity: 1
-  // });
-  // $(".image-2").hover(function () {
-  // $(this).stop().animate({
-  //   opacity: 0.4
-  // }, 200);
-  //   $('.fol-2').fadeIn();
-
-  // });
-  // $('.image-2').mouseout(function () {
-  //   $('.fol-2').hide();
-  // });
-
-  // function () {
-  // $(this).stop().animate({
-  //   opacity: 1
-  // }, 200);
-  //     $(".fol-2").fadeOut();
-  //   }
-  // );
   $('#image-2').hover(function () {
     $('#image-2').mouseenter(function () {
       $(".fol-2").show();
@@ -134,23 +113,11 @@ $(document).ready(function () {
     var email = $('#two').val();
     var message = $('#exampleFormControlTextarea1').val();
     if ((name !== '') && (email !== '') && (message !== '')) {
-      alert(email + ' ' + 'we have received your message and we thank you for your time')
+      /* this is the user Interface */
+      alert(name + ' ' + 'we have received your message and we thank you for your time')
     } else {
       alert('please input your contact information')
     }
   });
 
 });
-// $(".word").hide();
-// $(".image").animate({
-//   opacity:1
-// });
-// $("image").hover(function(){
-//   $(this).stop().animate({opacity:0.4},200);
-//   $("word").fadeIn();
-// },
-//   function(){
-//     $(this).stop().animate({opacity:1},200);
-//     $("word").fadeOut();
-//   }
-// );
