@@ -18,10 +18,10 @@ programmmer
 # scenario 
  A  user should be able to get the name of the project when they click on the project's image in the portfolio section in the webpage and also the user when the user fills the information in the contact section,he/she should be able to get a pop up message thanking them for their time and also informing them that their message has been received.
 # behind the scene
-*i used jquery together with DOM to get the information from the user such that the name and also give an alert message with their names or email in it thanking them for their time.example * johndoe we have received your message. Thank you fro reaching out to us. **
+* i used jquery together with DOM to get the information from the user such that the name and also give an alert message with their names or email in it thanking them for their time.example * johndoe we have received your message. Thank you fro reaching out to us. **
 
-*i also used hover effects in jquery such that when the user hover's his mouse on the project image ,he/she gets the name of the image in a rectangular shape.
-*i also used bootstrap and some of my css to style my webpage.
+* i also used hover effects in jquery such that when the user hover's his mouse on the project image ,he/she gets the name of the image in a rectangular shape.
+* i also used bootstrap and some of my css to style my webpage.
 ## Technologies Used
 * javascript
 * html and css
